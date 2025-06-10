@@ -1,0 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+ 
+}
+
+* {
+  --main-color: #1977f3;
+}
