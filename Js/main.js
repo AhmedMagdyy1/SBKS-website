@@ -47,34 +47,7 @@ const swiper = new Swiper(".teamSwiper", {
 });
 
 const CALENDLY_URL =
-  "https://calendly.com/Mkhiralah/free-consultation";
-
-
-  // function openCalendlyPopup() {
-  //           // Get form data to pre-fill Calendly
-  //           const name = document.getElementById('fullName').value;
-  //           const email = document.getElementById('emailAddress').value;
-  //           const phone = document.getElementById('phoneNumber').value;
-  //           const message = document.getElementById('message').value;
-            
-  //           // Open Calendly with pre-filled information
-  //           Calendly.initPopupWidget({
-  //               url: CALENDLY_URL,
-  //               prefill: {
-  //                   name: name,
-  //                   email: email,
-  //                   customAnswers: {
-  //                       a1: phone, // Assuming you have a phone field in your Calendly form
-  //                       a2: message // Assuming you have a message field in your Calendly form
-  //                   }
-  //               },
-  //               utm: {
-  //                   utmSource: 'website',
-  //                   utmMedium: 'form',
-  //                   utmCampaign: 'free_consultation'
-  //               }
-  //           });
-  //       }
+  "https://calendly.com/Mkhiralah-s-bks/free-consultation";
 
 document
   .getElementById("scheduleForm")
@@ -94,9 +67,6 @@ document
       alert("Please fill in all required fields");
       return;
     }
-
-    // Here you would typically send the data to your server
-    // For demo purposes, we'll just show success and open Calendly
 
     // Show success message
     document.getElementById("successMessage").classList.remove("hidden");
